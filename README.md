@@ -14,38 +14,19 @@ Interactive GUI with real-time visualization
 Support for 4-directional and diagonal movement
 Dynamic path recalculation
 
-Project Structure
-warehouse-robot-planner/
-├── model/
-│   ├── Grid.java          # Warehouse map (2D grid)
-│   ├── Node.java          # Graph node for pathfinding
-│   └── Robot.java         # Robot with position and state
-├── algorithm/
-│   ├── AStar.java         # A* pathfinding
-│   └── Dijkstra.java      # Dijkstra pathfinding
-├── planner/
-│   └── PathPlanner.java   # High-level path planning
-├── ui/
-│   └── WarehouseSimulator.java  # GUI application
-└── TestPhase1.java        # Test core components
-    TestPhase2.java        # Test pathfinding
-    TestPhase3.java        # Launch GUI
-Test Files
+Test Files:
 TestPhase1.java
-
 Tests the Grid, Node, and Robot classes
 Validates grid creation, obstacle placement, and robot movement
 Prints warehouse layout to console
 
 TestPhase2.java
-
 Tests A* and Dijkstra pathfinding algorithms
 Compares algorithm performance (speed, nodes explored)
 Tests dynamic replanning when obstacles change
 Demonstrates complex warehouse scenarios
 
 TestPhase3.java
-
 Launches the interactive GUI simulator
 Provides instructions for using the interface
 Allows visual testing of all features
