@@ -38,14 +38,22 @@ mkdir bin
 
 # Compile all files
 javac -d bin model/*.java algorithm/*.java planner/*.java ui/*.java TestPhase1.java TestPhase2.java TestPhase3.java
+
 2. Run Tests
+ 
 Test Phase 1 (Core Components):
+
 bashjava -cp bin TestPhase1
+
 Test Phase 2 (Pathfinding Algorithms):
+
 bashjava -cp bin TestPhase2
+
 Test Phase 3 (GUI Simulator):
+
 bashjava -cp bin TestPhase3
-3. Use the GUI
+
+4. Use the GUI
 Once the GUI opens:
 
 Select "Set Start" and click on the grid
